@@ -276,11 +276,11 @@ h4, p, q, small, button, form {
 #testimonials div{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 #testimonials section{
     text-align: center;
-    
+    width: 300px;
 }
 #testimonials h4{
     font-weight: bold;
@@ -298,6 +298,9 @@ h4, p, q, small, button, form {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+}
+#contact {
+    padding: 20px;
 }
 #contact div{
     justify-content: center;
