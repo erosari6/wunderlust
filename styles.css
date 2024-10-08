@@ -1,3 +1,4 @@
+@import url('https://fonts.google.com/share?selection.family=Molle:ital@1%7CMontserrat');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,7 +49,7 @@ table {
 }
 
 
-@import url('https://fonts.google.com/share?selection.family=Molle:ital@1%7CMontserrat');
+
 *{
        box-sizing: border-box; 
 }
@@ -110,11 +111,11 @@ nav {
     position: relative;
     top: 10px;
     left: 50px;
-    z-index: 1;  
+    z-index: 1; 
     -webkit-user-select: none;
     -moz-user-select: none;
      -ms-user-select: none;
-         user-select: none;
+         user-select: none; 
 }
   
   #menu-toggle a {
@@ -141,7 +142,7 @@ nav {
     padding: 0;
     cursor: pointer;  
     opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */  
+    z-index: 2;  
     -webkit-touch-callout: none;
   }
   
@@ -166,7 +167,7 @@ nav {
     position: relative;
     background: #cdcdcd;
     border-radius: 3px;  
-    z-index: 1;  
+    z-index: 1; 
     -webkit-transform-origin: 4px 0px;  
         -ms-transform-origin: 4px 0px;  
             transform-origin: 4px 0px;
@@ -174,8 +175,8 @@ nav {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  
-  #menu-toggle label div:first-child {
+ 
+  #menu-toggle label div:first-child { 
     -webkit-transform-origin: 0% 100%;
         -ms-transform-origin: 0% 100%;
             transform-origin: 0% 100%;
@@ -259,7 +260,7 @@ h4, p, q, small, button, form {
 }
 #plan section{
     background-color: #55BCD5;
-    border-radius: 5px solid #FFFFFF;
+    border-radius: 5px;
     width: 300px;
     text-align: center;
     border: 5px solid #FFFFFF;
