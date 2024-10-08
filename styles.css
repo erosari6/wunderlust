@@ -245,7 +245,7 @@ h4, p, q, small, button, form {
 
 #img-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 #plan {
     background-color: #F6D64A;
@@ -297,6 +297,9 @@ h4, p, q, small, button, form {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+}
+#contact div{
+    justify-content: center;
 }
 footer{
     background-color:#EAEAEA;
